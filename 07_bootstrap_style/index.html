@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container container_border">    
+
+        <!-- 1 テキスト -->
+        <h3> 1 テキスト </h3>
+
+        <h4> 1.1 見出し </h4>
+        <h5> 1.1.1 display </h5>
+        <h1 class="display-1"> h1 display-1 </h1>
+        <h1 class="display-2"> h1 display-2 </h1>
+        <h1 class="display-3"> h1 display-3 </h1>
+        <h1 class="display-4"> h1 display-4 </h1>
+        <h1 class="display-5"> h1 display-5 </h1>
+        <h1 class="display-6"> h1 display-6 </h1>
+
+        <h5> 1.1.2 副見出し </h5>
+        <h5> これが見出し <small class="text-muted">これが副見出し</small></h5>
+
+        <h4> 1.2 テキスト </h4>
+        <p> 通常の段落 </p>
+        <p class="lead"> リードした段落 </p>
+        <p> 
+            普通の文章<small>これがsmall</small> <br>
+            <strong>これがstrong</strong> <br>
+            <b>これがb</b> <br>
+            <mark>これがmark</mark> <br>
+            <del>これがdel</del> <br>
+            <s>これがs</s> <br>
+            <ins>これがins</ins> <br>
+            <u>これがu</u> <br>
+            <em>これがem</em> <br>
+            これがabbr : <abbr title="Newral Network">NN</abbr> <br>
+        </p>
+
+        <h5> 1.3 文字サイズ</h5>
+        <p class="fs-1">文字サイズ</p>
+        <p class="fs-2">文字サイズ</p>
+        <p class="fs-3">文字サイズ</p>
+        <p class="fs-4">文字サイズ</p>
+        <p class="fs-5">文字サイズ</p>
+        <p class="fs-6">文字サイズ</p>
+
+        <h5> 1.4 文字の太字とイタリック体 </h5>
+        <p class="fw-normal"> 通常 normal </p>
+        <p class="fw-bold"> 文字 bold </p>
+        <p class="fw-light"> 文字 light </p>
+        <p class="fst-italic"> 文字 italic </p>
+
+        <h4> 1.5 文字の色 </h4>
+        <p class="text-primary"> text-primary </p>
+        <p class="text-secondary"> text-secondary </p>
+        <p class="text-success"> text-success </p>
+        <p class="text-danger"> text-danger </p>
+        <p class="text-warning"> text-warning </p>
+        <p class="text-info"> text-info </p>
+        <p class="text-light"> text-light </p>
+        <p class="text-dark"> text-dark </p>
+
+        <h4> 1.6 行間 </h4>
+
+        <p class="lh-sm">
+            行間を指定するよ行間を指定するよ行間を指定するよ行間を指定するよ行間を指定するよ行間を指定するよ行間を指定するよ行間を指定するよ
+            行間を指定するよ行間を指定するよ行間を指定するよ行間を指定するよ行間を指定するよ行間を指定するよ行間を指定するよ行間を指定するよ
+        </p>
+
+        <p class="lh-base">
+            行間を指定するよ行間を指定するよ行間を指定するよ行間を指定するよ行間を指定するよ行間を指定するよ行間を指定するよ行間を指定するよ
+            行間を指定するよ行間を指定するよ行間を指定するよ行間を指定するよ行間を指定するよ行間を指定するよ行間を指定するよ行間を指定するよ
+        </p>
+
+        <p class="lh-lg">
+            行間を指定するよ行間を指定するよ行間を指定するよ行間を指定するよ行間を指定するよ行間を指定するよ行間を指定するよ行間を指定するよ
+            行間を指定するよ行間を指定するよ行間を指定するよ行間を指定するよ行間を指定するよ行間を指定するよ行間を指定するよ行間を指定するよ
+        </p>
+
+        <h4> 1.7 引用文 </h4>
+        <figure>
+            <blockquote class="blockquote">
+                <p>これが引用文</p>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+                <cite title="引用元">これがcite</cite>
+            </figcaption>
+        </figure>
+
+        <figure class="text-center">
+            <blockquote class="blockquote">
+                <p>これが引用文</p>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+                <cite title="引用元">これがcite</cite>
+            </figcaption>
+        </figure>
+
+        <figure class="text-end">
+            <blockquote class="blockquote">
+                <p>これが引用文</p>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+                <cite title="引用元">これがcite</cite>
+            </figcaption>
+        </figure>
+
+        <h4> 1.8 コード </h4>
+        <p>文章中の<code>&lt;p&gt;インラインコード&lt;/p&gt;</code></p>
+        <pre>
+            <code>
+                &lt;h1&gt;ここが見出し&lt;/h1&gt;
+                &lt;p&gt;ここが文章&lt;/p&gt;
+            </code>
+        </pre> 
+        <p>キーボードの入力<kbd>option</kbd></p>
+        
+        
+        <!-- 2 リスト -->
+        <h3> 2 リスト </h3>
+
+        <h4> 2.1 通常のリスト </h3>
+
+        <h5> 2.1.1 通常のリスト </h5>
+        <ul>
+            <li> item1 </li>
+            <li> item2 </li>
+            <li> item3 </li>
+        </ul>
+
+        <h5> 2.1.2 list-unstyled </h5>
+        <ul class="list-unstyled">
+            <li> item1 </li>
+            <li> item2 </li>
+            <li> item3 </li>
+        </ul>
+
+        <h5> 2.1.3 list-inline </h5>
+        <ul class="list-inline">
+            <li class="list-inline-item"> item1 </li>
+            <li class="list-inline-item"> item2 </li>
+            <li class="list-inline-item"> item3 </li>
+        </ul>
+
+        <h4> 2.2 リストグループ </h3>
+        
+        <h5> 2.2.1 リストグループ </h5>
+        <ul class="list-group">
+            <li class="list-group-item"> item1 </li>
+            <li class="list-group-item"> item2 </li>
+            <li class="list-group-item"> item3 </li>
+        </ul>
+        <div class="row">
+            <div class="col-3">
+                <h5> 2.2.1 リストグループ </h5>
+                <ul class="list-group">
+                    <li class="list-group-item"> item1 </li>
+                    <li class="list-group-item"> item2 </li>
+                    <li class="list-group-item"> item3 </li>
+                </ul>
+            </div>
+
+            <div class="col-3">
+                <h5> 2.2.2 アクティブと無効 </h5>
+                <ul class="list-group">
+                    <li class="list-group-item active"> item1 </li>
+                    <li class="list-group-item"> item2 </li>
+                    <li class="list-group-item disabled"> item3 </li>
+                </ul>
+            </div>
+                
+            <div class="col-3">
+                <h5> 2.2.3 枠なし </h5>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"> item1 </li>
+                    <li class="list-group-item"> item2 </li>
+                    <li class="list-group-item"> item3 </li>
+                </ul>
+            </div>
+
+            <div class="col-3">
+                <h5> 2.2.4 番号付き </h5>
+                <ul class="list-group list-group-numbered">
+                    <li class="list-group-item"> item1 </li>
+                    <li class="list-group-item"> item2 </li>
+                    <li class="list-group-item"> item3 </li>
+                </ul>
+            </div>
+
+            <div class="col-6">
+                <h5> 2.2.5 リンク付き </h5>
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action"> item1 </a>
+                    <a href="#" class="list-group-item list-group-item-action"> item2 </a>
+                    <a href="#" class="list-group-item list-group-item-action"> item3 </a>
+                </div>
+            </div>
+
+            <div class="col-6">
+                <h5> 2.2.6 色付き </h5>
+                <ul class="list-group">
+                    <li class="list-group-item list-group-item-primary"> item1 </li>
+                    <li class="list-group-item list-group-item-secondary"> item1 </li>
+                    <li class="list-group-item list-group-item-success"> item1 </li>
+                    <li class="list-group-item list-group-item-danger"> item1 </li>
+                    <li class="list-group-item list-group-item-warning"> item1 </li>
+                    <li class="list-group-item list-group-item-ingo"> item1 </li>
+                    <li class="list-group-item list-group-item-light"> item1 </li>
+                    <li class="list-group-item list-group-item-dark"> item1 </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <!-- 3 テーブル -->
+        <h3> 3 テーブル </h3>
+        <h4> 3.1 テーブルのbootstrap </h4>
+        <h5> 3.1.1 通常のテーブル</h5>
+        <table>
+            <thead>
+                <tr>
+                    <th>header1</th>
+                    <th>header2</th>
+                    <th>header3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>data1</td>
+                    <td>data2</td>
+                    <td>data3</td>
+                </tr>
+                <tr>
+                    <td>data4</td>
+                    <td>data5</td>
+                    <td>data6</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h5> 3.1.2 tableクラス </h5>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>header1</th>
+                    <th>header2</th>
+                    <th>header3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>data1</td>
+                    <td>data2</td>
+                    <td>data3</td>
+                </tr>
+                <tr>
+                    <td>data4</td>
+                    <td>data5</td>
+                    <td>data6</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <div class="row">
+            <div class="col-3">
+                <h5> 3.1.2 tableクラス </h5>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>header1</th>
+                            <th>header2</th>
+                            <th>header3</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>data1</td>
+                            <td>data2</td>
+                            <td>data3</td>
+                        </tr>
+                        <tr>
+                            <td>data4</td>
+                            <td>data5</td>
+                            <td>data6</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="col-3">
+                <h5> 3.1.3 table マウスオーバー </h5>
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>header1</th>
+                            <th>header2</th>
+                            <th>header3</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>data1</td>
+                            <td>data2</td>
+                            <td>data3</td>
+                        </tr>
+                        <tr>
+                            <td>data4</td>
+                            <td>data5</td>
+                            <td>data6</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="col-3">
+                <h5> 3.1.4 table-sm </h5>
+                <table class="table table-sm">
+                    <thead>
+                        <tr>
+                            <th>header1</th>
+                            <th>header2</th>
+                            <th>header3</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>data1</td>
+                            <td>data2</td>
+                            <td>data3</td>
+                        </tr>
+                        <tr>
+                            <td>data4</td>
+                            <td>data5</td>
+                            <td>data6</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="col-3">
+                <h5> 3.1.5 tableのキャプション </h5>
+                <table class="table">
+                <caption>これがキャプションだよ</caption>
+                    <thead>
+                        <tr>
+                            <th>header1</th>
+                            <th>header2</th>
+                            <th>header3</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>data1</td>
+                            <td>data2</td>
+                            <td>data3</td>
+                        </tr>
+                        <tr>
+                            <td>data4</td>
+                            <td>data5</td>
+                            <td>data6</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <h5> 3.1.6 レスポンシブtable </h5>
+        <div class="table-responsive-md">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>header1</th>
+                        <th>header2</th>
+                        <th>header3</th>
+                        <th>header4</th>
+                        <th>header5</th>
+                        <th>header6</th>
+                        <th>header7</th>
+                        <th>header8</th>
+                        <th>header9</th>
+                        <th>header10</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>data1</td>
+                        <td>data2</td>
+                        <td>data3</td>
+                        <td>data4</td>
+                        <td>data5</td>
+                        <td>data6</td>
+                        <td>data7</td>
+                        <td>data8</td>
+                        <td>data9</td>
+                        <td>data10</td>
+                    </tr>
+                    <tr>
+                        <td>data11</td>
+                        <td>data12</td>
+                        <td>data13</td>
+                        <td>data14</td>
+                        <td>data15</td>
+                        <td>data16</td>
+                        <td>data17</td>
+                        <td>data18</td>
+                        <td>data19</td>
+                        <td>data20</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>header1</th>
+                    <th>header2</th>
+                    <th>header3</th>
+                    <th>header4</th>
+                    <th>header5</th>
+                    <th>header6</th>
+                    <th>header7</th>
+                    <th>header8</th>
+                    <th>header9</th>
+                    <th>header10</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>data1</td>
+                    <td>data2</td>
+                    <td>data3</td>
+                    <td>data4</td>
+                    <td>data5</td>
+                    <td>data6</td>
+                    <td>data7</td>
+                    <td>data8</td>
+                    <td>data9</td>
+                    <td>data10</td>
+                </tr>
+                <tr>
+                    <td>data1</td>
+                    <td>data2</td>
+                    <td>data3</td>
+                    <td>data4</td>
+                    <td>data5</td>
+                    <td>data6</td>
+                    <td>data7</td>
+                    <td>data8</td>
+                    <td>data9</td>
+                    <td>data10</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h4> 3.2 テーブルのデザインと色 </h4>
+
+        <h5> 3.2.1 テーブルのデザイン</h5>
+        <div class="row">
+            <div class="col-4">
+                <table class="table table-dark">
+                    <thead>
+                        <tr>
+                            <th>header1</th>
+                            <th>header2</th>
+                            <th>header3</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>data1</td>
+                            <td>data2</td>
+                            <td>data3</td>
+                        </tr>
+                        <tr>
+                            <td>data4</td>
+                            <td>data5</td>
+                            <td>data6</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="col-4">
+                <table class="table table-light">
+                    <thead>
+                        <tr>
+                            <th>header1</th>
+                            <th>header2</th>
+                            <th>header3</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>data1</td>
+                            <td>data2</td>
+                            <td>data3</td>
+                        </tr>
+                        <tr>
+                            <td>data4</td>
+                            <td>data5</td>
+                            <td>data6</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="col-4">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>header1</th>
+                            <th>header2</th>
+                            <th>header3</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>data1</td>
+                            <td>data2</td>
+                            <td>data3</td>
+                        </tr>
+                        <tr>
+                            <td>data4</td>
+                            <td>data5</td>
+                            <td>data6</td>
+                        </tr>
+                        <tr>
+                            <td>data4</td>
+                            <td>data5</td>
+                            <td>data6</td>
+                        </tr>
+                        <tr>
+                            <td>data7</td>
+                            <td>data8</td>
+                            <td>data9</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="col-4">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>header1</th>
+                            <th>header2</th>
+                            <th>header3</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>data1</td>
+                            <td>data2</td>
+                            <td>data3</td>
+                        </tr>
+                        <tr>
+                            <td>data4</td>
+                            <td>data5</td>
+                            <td>data6</td>
+                        </tr>
+                        <tr>
+                            <td>data4</td>
+                            <td>data5</td>
+                            <td>data6</td>
+                        </tr>
+                        <tr>
+                            <td>data7</td>
+                            <td>data8</td>
+                            <td>data9</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="col-4">
+                <table class="table table-borderles">
+                    <thead>
+                        <tr>
+                            <th>header1</th>
+                            <th>header2</th>
+                            <th>header3</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>data1</td>
+                            <td>data2</td>
+                            <td>data3</td>
+                        </tr>
+                        <tr>
+                            <td>data4</td>
+                            <td>data5</td>
+                            <td>data6</td>
+                        </tr>
+                        <tr>
+                            <td>data4</td>
+                            <td>data5</td>
+                            <td>data6</td>
+                        </tr>
+                        <tr>
+                            <td>data7</td>
+                            <td>data8</td>
+                            <td>data9</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="col-4">
+                <h5> 3.2.2 テーブルの色</h5>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>header1</th>
+                            <th>header2</th>
+                            <th>header3</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="table-primary">
+                            <td>data1</td>
+                            <td>data2</td>
+                            <td>data3</td>
+                        </tr>
+                        <tr>
+                            <td>data4</td>
+                            <td>data5</td>
+                            <td>data6</td>
+                        </tr>
+                        <tr>
+                            <td>data4</td>
+                            <td class="table-success">data5</td>
+                            <td>data6</td>
+                        </tr>
+                        <tr>
+                            <td>data7</td>
+                            <td>data8</td>
+                            <td class="table-active">data9</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+
+        <!-- 4 画像 -->
+        <h3> 4 画像 </h3>
+
+        <div class="row">
+            <div class="col-4">
+                <img src="images/sample_image.png" class="img-fluid" alt="sample_image">
+            </div>
+            <div class="col-4">
+                <img src="images/sample_thumbnail.png" class="img-thumbnail" alt="sample_thumbnail">
+            </div>
+            <div class="col-4">
+                <figure class="figure">
+                    <img src="images/sample_image.png" class="figure-img img-fluid" alt="sample_image">
+                    <figcaption class="figure-caption">ここはキャプションだよ</figcaption>
+                </figure>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

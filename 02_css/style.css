@@ -1,0 +1,68 @@
+/* 1 cssの指定場所 */
+.select_color {
+    color: red; /* 太字の色 */    
+}
+
+
+/* 2 cssの指定方法 */
+
+/* 2.1 classの指定 */
+.sample_class {
+    color: blue; /* 文字の色 */    
+}
+/* 2.2 idの指定 */
+#sample_id {
+    color: green; /* 文字の色 */    
+}
+/* 2.3 階層で指定 */
+.sample_class_p p {
+    color: yellowgreen; /* 文字の色 */
+}
+
+
+/* 3 基本プロパティ */
+
+/* 3.1 フォント系 */
+.sample_text {
+    font-size: 12px; /* 太字の大きさ */
+    font-family: HiraMinProN-W6; /* フォント */
+    font-weight: bold; /* 太字を太く */
+    color: black; /* 太字の色 */
+    line-height: 25px; /* 行間 */
+    text-align: center; /* 位置揃え */
+}
+
+/* 3.2 領域系 */
+.sample_region {
+    height: 150px; /* 高さ */
+    width: 1000px; /* 横幅 */
+    border: 2px solid black; /* size, style, color */
+    padding: 10px; /* 内側の余白 */
+    margin: 20px; /* 外側の余白 */
+}
+
+/* 3.3 flex */
+.container {
+    display: flex; /* 左に並べる */
+    flex-wrap: wrap; /* 折り返し */
+}
+
+.item {
+    border: 2px solid black; /* size, style, color */
+    height: 20px; /* 高さ */
+    width: 200px; /* 横幅 */
+    padding: 20px; /* 内側の余白 */
+    margin: 20px; /* 外側の余白 */
+}
+
+/* 3.4 grid */
+.wrapper {
+    display: grid; /* gridにする */
+    grid-template-columns: repeat(3, 1fr); /* 比率 1:1:1 */
+  }
+
+.grid_item {
+    border: 2px solid black; /* size, style, color */
+    padding: 20px; /* 内側の余白 */
+    margin: 20px; /* 外側の余白 */
+}

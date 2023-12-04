@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 1.2 styleタグで指定 -->
+    <style>
+        .select_color {
+            color: red;            
+        }
+    </style>
+    <!-- 1.3 ファイルで指定 -->
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- 1 cssの指定場所 -->
+    <h1> 1 CSSの指定場所 </h1>
+
+    <!-- 1.1 属性で指定 -->
+    <p class="select_color" style="color: red"> 1.1 属性で指定 </p>
+
+
+    <!-- 2 cssの指定方法 -->
+    <h1> 2 CSSの指定方法</h1>
+
+    <p class="sample_class"> 2.1 sample_class : blue </p>
+    <p id="sample_id"> 2.2 sample_id : green </p>
+    <div class="sample_class_p">
+        <p> 2.3 sample_class_p : yellowgreen </p>
+    </div>
+
+
+    <!-- 3 基本プロパティ -->
+    <h1> 3 基本プロパティ </h1>
+        
+    <h2> 3.0 通常 </h2>
+    <p>
+        このテキストをデザインするこのテキストをデザインするこのテキストをデザインする<br>
+        このテキストをデザインするこのテキストをデザインするこのテキストをデザインする<br>
+        このテキストをデザインするこのテキストをデザインするこのテキストをデザインする<br>
+        このテキストをデザインするこのテキストをデザインするこのテキストをデザインする
+    </p>
+
+    <h2> 3.1 font系 </h2>
+    <p class="sample_text">
+        このテキストをデザインするこのテキストをデザインするこのテキストをデザインする<br>
+        このテキストをデザインするこのテキストをデザインするこのテキストをデザインする<br>
+        このテキストをデザインするこのテキストをデザインするこのテキストをデザインする<br>
+        このテキストをデザインするこのテキストをデザインするこのテキストをデザインする
+    </p>
+
+    <h2> 3.2 領域系 </h2>
+    <p class="sample_region">
+        このテキストをデザインするこのテキストをデザインするこのテキストをデザインする<br>
+        このテキストをデザインするこのテキストをデザインするこのテキストをデザインする<br>
+        このテキストをデザインするこのテキストをデザインするこのテキストをデザインする<br>
+        このテキストをデザインするこのテキストをデザインするこのテキストをデザインする
+    </p>
+    
+    <h2> 3.3 flex </h2>
+    <div class="container">
+        <div class="item"> Item 1 </div>
+        <div class="item"> Item 2 </div>
+        <div class="item"> Item 3 </div>
+        <div class="item"> Item 4 </div>
+        <div class="item"> Item 5 </div>
+        <div class="item"> Item 6 </div>
+    </div>
+
+    <h2> 3.4 grid </h2>
+    <div class="wrapper">
+        <div class="grid_item"> Item 1 </div>
+        <div class="grid_item"> Item 2 </div>
+        <div class="grid_item"> Item 3 </div>
+        <div class="grid_item"> Item 4 </div>
+        <div class="grid_item"> Item 5 </div>
+        <div class="grid_item"> Item 6 </div>
+    </div>
+
+</body>
+</html>

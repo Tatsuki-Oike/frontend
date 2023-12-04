@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- 1 Containerの基礎 -->
+    <h1> 1 Containerの基礎 </h1>
+    <div class="container container_border">
+
+        <h2> 1.1 グリッド </h2>
+        <div class="row row_border">
+            <div class="col col_border"> col </div>
+            <div class="col col_border"> col </div>
+            <div class="col col_border"> col </div>
+            <div class="col col_border"> col </div>
+            <div class="col col_border"> col </div>
+            <div class="col col_border"> col </div>
+            <div class="col col_border"> col </div>
+            <div class="col col_border"> col </div>
+            <div class="col col_border"> col </div>
+            <div class="col col_border"> col </div>
+            <div class="col col_border"> col </div>
+            <div class="col col_border"> col </div>
+        </div>
+        <div class="row row_border">
+            <div class="col col_border"> col </div>
+            <div class="col col_border"> col </div>
+            <div class="col col_border"> col </div>
+        </div>
+        <div class="row row_border">
+            <div class="col-6 col_border"> col-6 </div>
+            <div class="col-2 col_border"> col-2 </div>
+            <div class="col-4 col_border"> col-4 </div>
+        </div>
+        <div class="row row_border">
+            <div class="col-2 col_border"> col-2 </div>
+            <div class="col-3 col_border"> col-3 </div>
+            <div class="col-4 col_border"> col-4 </div>
+        </div>
+    </div>
+
+    <h2> 1.2 containerなし </h2>
+    <div class="row row_border">
+        <div class="col col_border"> col </div>
+        <div class="col col_border"> col </div>
+        <div class="col col_border"> col </div>
+    </div>
+
+
+    <!-- 2 レスポンシブ -->
+    <h1> 2 レスポンシブ </h1>
+    <div class="container container_border">
+        <h2> 2.1 sm, md, lg, xl </h2>
+        <div class="row row_border">
+            <div class="col-12 col-sm-3 col_border"> col-12 col-sm-3 </div>
+        </div>
+        <div class="row row_border">
+            <div class="col-12 col-md-3 col_border"> col-12 col-md-3 </div>
+        </div>
+        <div class="row row_border">
+            <div class="col-12 col-lg-3 col_border"> col-12 col-lg-3 </div>
+        </div>
+        <div class="row row_border">
+            <div class="col-12 col-xl-3 col_border"> col-12 col-xl-3 </div>
+        </div>
+    </div>
+
+    <div class="container container_border">
+        <h2> 2.2 通常のレスポンシブ </h2>
+        <div class="row row_border">
+            <div class="col-12 col-md-3 col_border"> col-12 col-md-3 </div>
+            <div class="col-12 col-md-3 col_border"> col-12 col-md-3 </div>
+            <div class="col-12 col-md-3 col_border"> col-12 col-md-3 </div>
+            <div class="col-12 col-md-3 col_border"> col-12 col-md-3 </div>
+        </div>
+    </div>
+
+
+    <div class="container container_border">
+        <h2> 2.3 ブレイクポイント </h2>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 row_border">
+            <div class="col col_border"> row-cols-1 row-cols-sm-2 row-cols-md-4 </div>
+            <div class="col col_border"> row-cols-1 row-cols-sm-2 row-cols-md-4 </div>
+            <div class="col col_border"> row-cols-1 row-cols-sm-2 row-cols-md-4 </div>
+            <div class="col col_border"> row-cols-1 row-cols-sm-2 row-cols-md-4 </div>
+            <div class="col col_border"> row-cols-1 row-cols-sm-2 row-cols-md-4 </div>
+            <div class="col col_border"> row-cols-1 row-cols-sm-2 row-cols-md-4 </div>
+            <div class="col col_border"> row-cols-1 row-cols-sm-2 row-cols-md-4 </div>
+            <div class="col col_border"> row-cols-1 row-cols-sm-2 row-cols-md-4 </div>
+            <div class="col col_border"> row-cols-1 row-cols-sm-2 row-cols-md-4 </div>
+            <div class="col col_border"> row-cols-1 row-cols-sm-2 row-cols-md-4 </div>
+            <div class="col col_border"> row-cols-1 row-cols-sm-2 row-cols-md-4 </div>
+            <div class="col col_border"> row-cols-1 row-cols-sm-2 row-cols-md-4 </div>
+        </div>
+    </div>
+
+
+    <!-- 3 整列 -->
+    <h1> 3 整列 </h1>
+    <div class="container container_border">
+        <h2> 3.1 justify-content-center </h2>
+        <div class="row justify-content-center row_border">
+            <div class="col-3 col_border"> justify-content-center </div>
+            <div class="col-3 col_border"> justify-content-center </div>
+        </div>
+
+        <h2> 3.2 justify-content-end </h2>
+        <div class="row justify-content-end row_border">
+            <div class="col-3 col_border"> justify-content-end </div>
+            <div class="col-3 col_border"> justify-content-end </div>
+        </div>
+        
+        <h2> 3.3 justify-content-around </h2>
+        <div class="row justify-content-around row_border">
+            <div class="col-3 col_border"> justify-content-around </div>
+            <div class="col-3 col_border"> justify-content-around </div>
+        </div>
+
+        <h2> 3.4 justify-content-betweenr </h2>
+        <div class="row justify-content-between row_border">
+            <div class="col-3 col_border"> justify-content-betweenr </div>
+            <div class="col-3 col_border"> justify-content-betweenr </div>
+        </div>
+    </div>
+
+
+    <!-- 4 ボーダーと余白と大きさ -->
+    <h1> 4 ボーダーと余白と大きさ </h1>
+    <div class="container">
+        <h2> 4.1 border </h2>
+        <div class="row">
+            <div class="col border"> border </div>
+            <div class="col border"> border </div>
+            <div class="col border"> border </div>
+        </div>
+        <div class="row">
+            <div class="col border border-1"> border-1 </div>
+            <div class="col border border-2"> border-2 </div>
+            <div class="col border border-3"> border-3 </div>
+            <div class="col border border-4"> border-4 </div>
+            <div class="col border border-5"> border-5 </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2> 4.2 padding </h2>
+        <div class="row border border-3 p-1">
+            <div class="col"> p-1 </div>
+        </div>
+        <div class="row border border-3 p-2">
+            <div class="col"> p-2 </div>
+        </div>
+        <div class="row border border-3 p-3">
+            <div class="col"> p-3 </div>
+        </div>
+        <div class="row border border-3 p-4">
+            <div class="col"> p-4 </div>
+        </div>
+        <div class="row border border-3 p-5">
+            <div class="col"> p-5 </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2> 4.3 margin </h2>
+        <div class="row border border-3 m-1">
+            <div class="col"> m-1 </div>
+        </div>
+        <div class="row border border-3 m-2">
+            <div class="col"> m-2 </div>
+        </div>
+        <div class="row border border-3 m-3">
+            <div class="col"> m-3 </div>
+        </div>
+        <div class="row border border-3 m-4">
+            <div class="col"> m-4 </div>
+        </div>
+        <div class="row border border-3 m-5">
+            <div class="col"> m-5 </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2> 4.4 上下左右指定 </h2>
+        <div class="row border border-3 mb-3">
+            <div class="col"> mb-3 </div>
+        </div>
+        <div class="row border border-3 me-3">
+            <div class="col"> me-3 </div>
+        </div>
+        <div class="row border border-3 mt-3">
+            <div class="col"> mt-3 </div>
+        </div>
+        <div class="row border border-3 ms-3">
+            <div class="col"> ms-3 </div>
+        </div>
+        <div class="row border border-3 mx-3">
+            <div class="col"> mx-3 </div>
+        </div>
+        <div class="row border border-3 my-3">
+            <div class="col"> my-3 </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2> 4.5 gap </h2>
+        <div class="row gap-1">
+            <div class="col border border-3"> gap-1 </div>
+            <div class="col border border-3"> gap-1 </div>
+            <div class="col border border-3"> gap-1 </div>
+        </div>
+        <div class="row gap-2">
+            <div class="col border border-3"> gap-2 </div>
+            <div class="col border border-3"> gap-2 </div>
+            <div class="col border border-3"> gap-2 </div>
+        </div>
+        <div class="row gap-3">
+            <div class="col border border-3"> gap-3 </div>
+            <div class="col border border-3"> gap-3 </div>
+            <div class="col border border-3"> gap-3 </div>
+        </div>
+        <div class="row gap-4">
+            <div class="col border border-3"> gap-4 </div>
+            <div class="col border border-3"> gap-4 </div>
+            <div class="col border border-3"> gap-4 </div>
+        </div>
+        <div class="row gap-5">
+            <div class="col border border-3"> gap-5 </div>
+            <div class="col border border-3"> gap-5 </div>
+            <div class="col border border-3"> gap-5 </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <h2> 4.6 border color </h2>
+        <div class="row gap-1">
+            <div class="col border border-primary"> border-primary </div>
+            <div class="col border border-secondary"> border-secondary </div>
+            <div class="col border border-success"> border-success </div>
+            <div class="col border border-danger"> border-danger </div>
+            <div class="col border border-warning"> border-warning </div>
+            <div class="col border border-info"> border-info </div>
+            <div class="col border border-light"> border-light </div>
+            <div class="col border border-dark"> border-dark </div>
+            <div class="col border border-white"> border-white </div>
+        </div>
+        <div class="row gap-1 my-2">
+            <div class="col border-start border-primary"> border-start </div>
+            <div class="col border-bottom border-primary"> border-bottom </div>
+            <div class="col border-end border-primary"> border-end </div>
+            <div class="col border-top border-primary"> border-top </div>
+        </div>
+        <div class="row gap-1">
+            <div class="col border border-start-0 border-danger"> border-start-0 </div>
+            <div class="col border border-bottom-0 border-danger"> border-bottom-0 </div>
+            <div class="col border border-end-0 border-danger"> border-end-0 </div>
+            <div class="col border border-top-0 border-danger"> border-top-0 </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2> 4.7 width </h2>
+        <div class="w-25 border"> w25 </div>
+        <div class="w-50 border"> w50 </div>
+        <div class="w-75 border"> w75 </div>
+        <div class="w-100 border"> w100 </div>
+    </div>
+
+    <div class="container">
+        <h2> 4.8 height </h2>
+        <div class="row" style="height: 200px">
+            <div class="col h-25 border"> h25 </div>
+            <div class="col h-50 border"> h50 </div>
+            <div class="col h-75 border"> h75 </div>
+            <div class="col h-100 border"> h100 </div>
+        </div>
+    </div>
+
+    <!-- 5 color -->
+    <h1> 5 color </h1>
+    <div class="container">
+        <div class="row">
+            <div class="col bg-primary"> bg-primary </div>
+            <div class="col bg-secondary"> bg-secondary </div>
+            <div class="col bg-success"> bg-success </div>
+            <div class="col bg-danger"> bg-danger </div>
+            <div class="col bg-warning"> bg-warning </div>
+            <div class="col bg-info"> bg-info </div>
+            <div class="col bg-light"> bg-light </div>
+            <div class="col bg-dark"> bg-dark </div>
+            <div class="col bg-white"> bg-white </div>
+        </div>
+
+
+    <br><br><br><br>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

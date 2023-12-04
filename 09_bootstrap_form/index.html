@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- 1 input -->
+    <div class="container">
+        <form>
+            <h2 class="mt-5"> 1 input </h2>
+
+            <!-- 1.1 input text -->
+            <div class="my-3">
+                <label class="form-label" for="text"> 1.1 text </label>
+                <input type="text" class="form-control" id="text" placeholder="textを入力">
+            </div>
+
+            <!-- 1.2 input email -->
+            <div class="my-3">
+                <label class="form-label" for="email"> 1.2 email </label>
+                <input type="email" class="form-control" id="email" placeholder="メールアドレスを入力">
+            </div>
+
+            <!-- 1.3 input password -->
+            <div class="my-3">
+                <label class="form-label" for="password"> 1.3 password </label>
+                <input type="password" class="form-control" id="password" placeholder="パスワードを入力">
+            </div>
+
+            <!-- 1.4 input textarea -->
+            <div class="my-3">
+                <label class="form-label" for="textarea"> 1.4 textarea </label>
+                <textarea class="form-control" id="textarea" rows="3" placeholder="textを入力"></textarea>
+            </div>
+        </form>
+    </div>
+
+    <!-- 2 選択 -->
+    <div class="container">
+        <form>
+            <h2 class="mt-5"> 2 選択 </h2>
+
+            <!-- 2.1 チェックボックス -->
+            <h3 class="my-3"> 2.1 チェックボックス </h3>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="check1">
+                <label class="form-check-label" for="check1">
+                    check1
+                </label>
+            </div>
+
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="check2">
+                <label class="form-check-label" for="check2">
+                    check2
+                </label>
+            </div>
+
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="check3">
+                <label class="form-check-label" for="check3">
+                    check3
+                </label>
+            </div>
+
+            <!-- 2.2 スイッチ状チェックボックス -->
+            <h3 class="my-3"> 2.2 スイッチ状チェックボックス </h3>
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" value="" id="check4">
+                <label class="form-check-label" for="check4">
+                    check1
+                </label>
+            </div>
+
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" value="" id="check5">
+                <label class="form-check-label" for="check5">
+                    check2
+                </label>
+            </div>
+
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" value="" id="check6">
+                <label class="form-check-label" for="check6">
+                    check3
+                </label>
+            </div>
+
+            <!-- 2.3 横並びチェックボックス -->
+            <h3 class="my-3"> 2.3 横並びチェックボックス </h3>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" value="" id="check7">
+                <label class="form-check-label" for="check7">
+                    check1
+                </label>
+            </div>
+
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" value="" id="check8">
+                <label class="form-check-label" for="check8">
+                    check2
+                </label>
+            </div>
+
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" value="" id="check9">
+                <label class="form-check-label" for="check9">
+                    check3
+                </label>
+            </div>
+
+            <!-- 2.4 ラジオボタン -->
+            <h3 class="my-3"> 2.4 ラジオボタン </h3>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="radio" value="" id="check10">
+                <label class="form-check-label" for="check10">
+                    check1
+                </label>
+            </div>
+
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="radio" value="" id="check11">
+                <label class="form-check-label" for="check11">
+                    check2
+                </label>
+            </div>
+
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="radio" value="" id="check12">
+                <label class="form-check-label" for="check12">
+                    check3
+                </label>
+            </div>
+            
+            <!-- 2.5 プルダウン -->
+            <div class="my-3">
+                <label class="form-label" for="select1"> 2.5 プルダウン </label>
+                <select class="form-select" id="select1">
+                    <option> 1 </option>
+                    <option> 2 </option>
+                    <option> 3 </option>
+                    <option> 4 </option>
+                </select>
+            </div>
+
+            <!-- 2.6 ファイル選択 -->
+            <div class="my-3">
+                <label class="form-label" for="file"> 2.6 ファイル選択 </label>
+                <input class="form-control" type="file" id="file">
+            </div>
+
+            <!-- 2.7 カラーピッカー -->
+            <div class="my-3">
+                <label class="form-label" for="color"> 2.7 カラーピッカー </label>
+                <input class="form-control form-control-color" type="color" id="color">
+            </div>
+
+        </form>
+    </div>
+
+    <!-- 3 Size -->
+    <div class="container">
+        <form>
+            <h2 class="mt-5"> 3 Size </h2>
+
+            <!-- 3.1 input size -->
+            <div class="my-3">
+                <label class="form-label form-label-lg" for="text_lg"> 3.1.1 text large </label>
+                <input type="text" class="form-control form-control-lg" id="text_lg" placeholder="textを入力">
+            </div>
+
+            <div class="my-3">
+                <label class="form-label" for="text_normal"> 3.1.2 text </label>
+                <input type="text" class="form-control" id="text_normal" placeholder="textを入力">
+            </div>
+
+            <div class="my-3">
+                <label class="form-label" for="text_sm"> 3.1.3 text small </label>
+                <input type="text" class="form-control form-control-sm" id="text_sm" placeholder="textを入力">
+            </div>
+
+            <!-- 3.2 select size -->
+            <div class="my-3">
+                <label class="form-label" for="select2"> 3.2.1 プルダウン lg </label>
+                <select class="form-select form-select-lg" id="select2">
+                    <option> 1 </option>
+                    <option> 2 </option>
+                    <option> 3 </option>
+                    <option> 4 </option>
+                </select>
+            </div>
+
+            <div class="my-3">
+                <label class="form-label" for="select3"> 3.2.2 プルダウン </label>
+                <select class="form-select" id="select3">
+                    <option> 1 </option>
+                    <option> 2 </option>
+                    <option> 3 </option>
+                    <option> 4 </option>
+                </select>
+            </div>
+
+            <div class="my-3">
+                <label class="form-label" for="select4"> 3.2.3 プルダウン sm </label>
+                <select class="form-select form-select-sm" id="select4">
+                    <option> 1 </option>
+                    <option> 2 </option>
+                    <option> 3 </option>
+                    <option> 4 </option>
+                </select>
+            </div>
+
+            <h4> 3.3 button </h4>
+            <button class="btn btn-primary btn-lg"> btn lg </button>
+            <button class="btn btn-primary btn"> btn </button>
+            <button class="btn btn-primary btn-sm"> btn sm </button>
+            
+        </form>
+    </div>
+
+     <!-- 4 grid -->
+     <div class="container">
+        <h2 class="mt-5"> 4 grid form </h2>
+
+        <h3> 4.1 gridを利用したフォーム </h3>
+        <form class="my-3">
+
+            <!-- 名前 -->
+            <div class="row">
+                <div class="col-6">
+                    <label class="form-label" for="name1"> 姓 </label>
+                    <input type="text" class="form-control" id="name1" placeholder="山田">
+                </div>
+                <div class="col-6">
+                    <label class="form-label" for="name2"> 名 </label>
+                    <input type="text" class="form-control" id="name2" placeholder="太郎">
+                </div>
+            </div>
+
+            <!-- 住所 -->
+            <div class="row my-3">
+                <div class="col-4">
+                    <label class="form-label" for="address1"> 市区町村 </label>
+                    <input type="text" class="form-control" id="address1" placeholder="市区町村">
+                </div>
+                <div class="col-4">
+                    <label class="form-label" for="address2"> 都道府県 </label>
+                    <input type="text" class="form-control" id="address2" placeholder="都道府県">
+                </div>
+                <div class="col-4">
+                    <label class="form-label" for="address3"> 郵便番号 </label>
+                    <input type="text" class="form-control" id="address3" placeholder="郵便番号">
+                </div>
+            </div>
+
+            <!-- email -->
+            <div class="my-3">
+                <label class="form-label" for="email_fm"> email </label>
+                <input type="email" class="form-control" id="email_fm" placeholder="メールアドレスを入力">
+            </div>
+
+            <!-- password -->
+            <div class="my-3">
+                <label class="form-label" for="password_fm"> password </label>
+                <input type="password" class="form-control" id="password_fm" placeholder="パスワードを入力">
+            </div>
+
+            <!-- 送信ボタン -->
+            <button type="submit" class="btn btn-primary"> 送信 </button>
+            
+        </form>
+
+        <h3> 4.2 ヘルプテキスト </h3>
+        <form class="my-3">
+
+            <!-- 名前 -->
+            <div class="row">
+                <div class="col-6">
+                    <label class="form-label" for="name1_hp"> 姓 </label>
+                    <input type="text" class="form-control" id="name1_hp" placeholder="山田">
+                </div>
+                <div class="col-6">
+                    <label class="form-label" for="name2_hp"> 名 </label>
+                    <input type="text" class="form-control" id="name2_hp" placeholder="太郎">
+                </div>
+            </div>
+
+            <!-- 住所 -->
+            <div class="row my-3">
+                <div class="col-4">
+                    <label class="form-label" for="address1_hp"> 市区町村 </label>
+                    <input type="text" class="form-control" id="address1_hp" placeholder="市区町村">
+                </div>
+                <div class="col-4">
+                    <label class="form-label" for="address2_hp"> 都道府県 </label>
+                    <input type="text" class="form-control" id="address2_hp" placeholder="都道府県">
+                </div>
+                <div class="col-4">
+                    <label class="form-label" for="address3_hp"> 郵便番号 </label>
+                    <input type="text" class="form-control" id="address3_hp" placeholder="郵便番号">
+                    <small class="form-text text-muted">例: 123-4567d</small>
+                </div>
+            </div>
+
+            <!-- email -->
+            <div class="my-3">
+                <label class="form-label" for="email_hp"> email </label>
+                <input type="email" class="form-control" id="email_hp" placeholder="メールアドレスを入力">
+            </div>
+
+            <!-- password -->
+            <div class="my-3">
+                <label class="form-label" for="password_hp"> password </label>
+                <input type="password" class="form-control" id="password_hp" placeholder="パスワードを入力">
+                <small class="form-text text-muted">8文字以上</small>
+            </div>
+
+            <!-- 送信ボタン -->
+            <button type="submit" class="btn btn-primary"> 送信 </button>
+            
+        </form>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html> 
